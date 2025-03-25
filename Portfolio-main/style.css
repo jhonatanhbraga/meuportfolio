@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color:antiquewhite ;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+.conteudo{
+    font-size: 10px;
+}
+.cabecalho{display: flex; justify-content: space-between;}
+
+.traduzir{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.redes{
+    color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    a{margin-right: 20px;} /*aqui separa os termos...*/
+
+}
+
+.conteudo{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    
+}
+.conteudo_texto{
+     width: 100%;/*o texto vai ocupar todo o espaço*/
+     max-width:700px ;/*com isso o texto não fica largo demais*/
+     text-align: justify;/*e aqui ele vai até o final da linha, mt útil*/ 
+    height: auto;
+    ;}
+
+.conteudo_imagem{
+    width: auto;
+    height: 90%;
+}
+
+img{/*a imagem é diferento do conteiner onde ela fica!*/
+    border-radius: 400px;
+    height: 250px;
+}
+
+.conteudo_tecnologias{
+    font-size: 40px;
+    font-family: "Orbitron", sans-serif;
+    color: green;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+
+}
