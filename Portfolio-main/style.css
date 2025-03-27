@@ -1,29 +1,69 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color:antiquewhite ;
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    
+
 }
 .conteudo{
     font-size: 10px;
 }
-.cabecalho{display: flex; justify-content: space-between;}
+.cabecalho{display: flex; justify-content: space-between;
+}
 
 .traduzir{
-    display: flex;
+    display:inline-flex;
     flex-direction: row;
-    justify-content: flex-start;
+    padding: 1px;
+    margin-top: auto;
+    margin-bottom: 28px;
+    a{margin-left: 5px;};
+    background-color: rgb(0, 0, 0);
+    
+
 }
+.traduzir{
+    position: relative;
+    top: -5px;
+}
+
+
+
+/*mudar a cor do botao variadno de menu...*/
+.botao1{
+    background-color: rgb(81, 189, 108);
+
+}
+.botao2{
+    background-color: rgb(81, 189, 108);
+}
+
+
+
 .redes{
-    color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    a{margin-right: 20px;} /*aqui separa os termos...*/
+    a{margin-right: 10px;} /*aqui separa os termos...*/
 
 }
+
+
+.linkedin_imagem{
+    width: 50px;
+    height: auto;
+}
+.github_imagem{
+    width: 50px;
+    height: auto;
+}
+
+
+ .botoes{
+    border-radius: 200px;
+    
+ }
 
 .conteudo{
     color: antiquewhite;
@@ -53,13 +93,14 @@ img{/*a imagem é diferento do conteiner onde ela fica!*/
     height: 250px;
 }
 
-.conteudo_tecnologias{
+.titulo_tec{
     font-size: 40px;
     font-family: "Orbitron", sans-serif;
-    color: green;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     margin: auto;
+}
+.imagens_tecs{
     
-
 }
