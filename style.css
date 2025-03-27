@@ -88,7 +88,7 @@ body{
     height: 90%;
 }
 
-img{/*a imagem é diferento do conteiner onde ela fica!*/
+img{
     border-radius: 400px;
     height: 250px;
 }
@@ -100,7 +100,4 @@ img{/*a imagem é diferento do conteiner onde ela fica!*/
     display: flex;
     justify-content: center;
     margin: auto;
-}
-.imagens_tecs{
-    
 }
