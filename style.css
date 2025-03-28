@@ -108,21 +108,43 @@ body{
     justify-content: center;
     margin: auto;
 }
-
+.img_css{
+   display: flex;
+   flex-direction: column; 
+   flex-direction: column;
+    align-items: center;
+}
 .img_js{
 height: 188px;
 width: 190px;
 padding-bottom: 5px;
 border-radius: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
 
 }
 .img_html{
     width:  197px;
     padding: px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .imagens_tecs{
     display: flex;
     justify-content: center;
     
+}
+
+.conteudo_tecnologias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+
 }
