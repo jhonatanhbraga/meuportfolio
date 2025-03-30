@@ -114,7 +114,6 @@ body{
    display: flex;
    flex-direction: column; 
     align-items: center;
-    width: 10rem;
 }
 .img_js{ /*muito foco aqui, a curva da ponta n funcionava 
 pois pegava no div, por isso o img no começo, para pegar só a imagem...*/
@@ -126,24 +125,23 @@ border-radius: 30px;
 width: 12rem;
 }
 .img_html {
-    width:  12.5rem;
+    width:  197px;
     height: auto;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-        .img_js img{/* tive outro problema, a imagem precisou ser separada do texto,...*/
+.img_js img{/* tive outro problema, a imagem precisou ser separada do texto,...*/
 
-          border-radius: 20px;
-         width: 40px;
-         height: auto;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
 }
 
-         .img_html IMG{width: 100%;}
-
-        .img_css img{width: 100%;}
+.img_html IMG{width: 100%;}
 
 .conteudo_tecnologias{
     display: flex;
@@ -151,6 +149,10 @@ width: 12rem;
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
-    width: 20rem;
+    width: 100%;
+    height: auto;
 
+}
+.conteudo_tecnologias IMG{
+    width: 100%;
 }
