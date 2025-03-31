@@ -129,7 +129,19 @@ border-radius: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
+.img_git{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    }
+
+
+
+
 
 
 .img_js img{/* tive outro problema, a imagem precisou ser separada do texto,...*/
@@ -139,9 +151,21 @@ border-radius: 30px;
     height: auto;
 }
 
-.img_html IMG{
+.img_html img{
     width:12rem;
     height: auto;
+
+}
+.img_css img{
+    width:12.4rem;
+    height: auto;
+}
+
+.img_git img{
+    width:12.4rem;
+    height: auto;
+    border-radius: 60px;
+    
 
 }
 
