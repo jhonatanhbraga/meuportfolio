@@ -11,66 +11,63 @@ body{
 }
 
 .cabecalho{display: flex; justify-content: space-between;
-    max-height: 28px;
+    max-height: 1.6rem;
     background-color: rgb(0, 0, 0);
 }
 
 .traduzir{
     display:inline-flex;
     flex-direction: row;
-    padding: 1px;
+    padding: 0.1rem;
     margin-top: auto;
     margin-bottom: 28px;
     a{margin-left: 5px;};
     background-color: rgb(0, 0, 0);
-    
-
 }
+
 .traduzir{
     position: relative;
-    top: -5px;
+    top: -0.3rem;
 }
 
 /*mudar a cor do botao variadno de menu...*/
 .botao1{
-    background-color: rgb(81, 189, 108);
-
-}
+    background-color: rgb(81, 189, 108);}
 .botao2{
-    background-color: rgb(81, 189, 108);
-}
+    background-color: rgb(81, 189, 108);}
+
+
 
 .redes{
     display: inline-flex;
     flex-direction: row;
-    margin-bottom: 28x;
-    a{margin-right: 5px;} /*aqui separa os termos...*/
+    margin-bottom: 1.75rem;
+    a{margin-right: 0.3rem;} /*aqui separa os termos...*/
 
 }
 
 
 .linkedin_imagem{
-    width: 28px;
-    height: 30;
-    border-radius: 100px;
-    position: relative;
-    top: 2px;
-    
-}
-.github_imagem{
-    width: 30px;
+    width: 1.75rem;
     height: auto;
     border-radius: 100px;
     position: relative;
-    top: 1px;
+    top: 0.12rem;
+    
+}
+.github_imagem{
+    width: 2rem;
+    height: auto;
+    border-radius: 100px;
+    position: relative;
+    top: 0.1rem;
 }
 .botoes{
     border-radius: 200px;
-    
+    height: auto;
+      
+}
 
-    
-    
- }
 
 .conteudo{
     color: antiquewhite;
@@ -81,19 +78,19 @@ body{
     width: 70%;
     height: 18rem;
     margin: auto;
-    font-size: 12px;
+    font-size: 0.75rem;
     
 }
 .conteudo_texto{
      width: 100%;/*o texto vai ocupar todo o espaço*/
-     max-width:700px ;/*com isso o texto não fica largo demais*/
+     max-width: 44rem;/*com isso o texto não fica largo demais*/
      text-align: justify;/*e aqui ele vai até o final da linha, mt útil*/ 
     height: auto;
     ;}
 
 .conteudo_imagem{
-    width: 100%;
-    height: 250px;
+    width: 12rem;
+    height: auto;
     border-radius: 60px;
 }
 
@@ -115,6 +112,8 @@ body{
    display: flex;
    flex-direction: column; 
     align-items: center;
+    justify-content: center;
+ 
 }
 .img_js{ /*muito foco aqui, a curva da ponta n funcionava 
 pois pegava no div, por isso o img no começo, para pegar só a imagem...*/
@@ -123,26 +122,28 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-radius: 30px;
-width: 12rem;
 }
+
 .img_html {
-    width:  197px;
-    height: auto;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 
 .img_js img{/* tive outro problema, a imagem precisou ser separada do texto,...*/
 
     border-radius: 20px;
-    width: auto;
+    width: 11.6rem;
     height: auto;
 }
 
-.img_html IMG{width: 100%;}
+.img_html IMG{
+    width:12rem;
+    height: auto;
+
+}
 
 .conteudo_tecnologias{
     display: flex;
@@ -150,10 +151,5 @@ width: 12rem;
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-
-}
-.conteudo_tecnologias IMG{
-    width: 100%;
+   
 }
