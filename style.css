@@ -1,15 +1,16 @@
 body{
+    box-sizing: border-box;
     background-color: rgb(0, 0, 0);
     color:antiquewhite ;
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    
+    /* height: 100vh; */
 
 }
+
+*{margin: 0;
+padding: 0;}
 
 .cabecalho{display: flex; justify-content: space-between;
     max-height: 1.6rem;
@@ -79,6 +80,7 @@ body{
     margin: auto;
     font-size: 0.75rem;
     gap: 5rem;
+    padding: 1% 1%;
 }
 
 
@@ -87,6 +89,8 @@ body{
      max-width: 44rem;/*com isso o texto não fica largo demais*/
      text-align: justify;/*e aqui ele vai até o final da linha, mt útil*/ 
     height: auto;
+    gap: 20rem
+    ;
 }
 
 .conteudo_imagem{
@@ -174,17 +178,29 @@ border-radius: 30px;
     justify-content: center;
     gap: 1rem;
     min-height: 10rem; /* Adicionado para garantir espaço */
+    padding: 1% 30%;
+    gap: 40px;
     
 }
 .parte2{display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    gap: 3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 600px;
+    padding: 10% 1%;
 }
 
+.rodape{
+background-color: aqua;
+text-align: center;
+padding: 20px;
+font-size: 1.5rem;
+font-weight: 4px;
 
-@media(max-width: 650px){
+}
+
+@media(max-width: 914px){
 .conteudo{ flex-direction: column;}
 
 .conteudo_tecnologias{
@@ -195,7 +211,5 @@ border-radius: 30px;
     display: flex;
     flex-direction: column;
 }
-
-
 
 }
