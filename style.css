@@ -15,6 +15,11 @@ body{
 .cabecalho{display: flex; justify-content: space-between;
     max-height: 1.6rem;
     background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed; /*ESSA MARAVILHA  que DEIXOU o rodape no final também salvou aqui!*/
+    left: 0;
+    right: 0;
+
     
 }
 
@@ -51,8 +56,11 @@ a{margin-right: 0.1rem;};
 .redes{
     display: inline-flex;
     flex-direction: row;
+    position: relative;
+    padding: 0.1rem;
     margin-bottom: 1.75rem;
     a{margin-right: 0.3rem;} /*aqui separa os termos...*/
+    
 }
 .linkedin_imagem{
     width: 1.75rem;
@@ -208,7 +216,7 @@ border-radius: 30px;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    width: 600px;
+    width: 40rem;
     padding: 10% 1%;
 
 }
